@@ -1,0 +1,118 @@
+body {
+    margin: 0px auto;
+    background-image: url(bg.png);
+}
+.wrapper {
+    display: flex;
+    min-height:100%;
+    overflow: hidden;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.container {
+width: 1170px;
+margin: 0px auto;
+}
+header {
+}
+.header_row { 
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 25px;
+margin-top: 2%;
+}
+.logo{
+    height: 55px;
+}
+
+
+ul.menu_list li {
+    display: inline;
+    margin-right: 60px;
+   }
+   a{
+    text-decoration: none;
+   }
+   .menu_link{
+       font-size: 18px;
+       font-family: 'Raleway', sans-serif;
+       color: #fff;
+   }
+
+   .menu_link:hover{
+    color: #ffba21;
+  }
+button{
+    background: #ff5f60;
+    width: 120px;
+    height: 45px;
+    border: 0px;
+    color: #fff;
+    border-radius: 30px; 
+    font-size: 18px;
+}
+section{
+    padding-top: 250px;
+}
+.start-screen{
+display: grid;
+}
+.title{
+    grid-column: 1/2;
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: auto;
+}
+.picture{
+    display: flex;
+    grid-row: 1/5;
+    grid-column: 2/3;
+    align-items: flex-start;
+    align-self: flex-end;
+    justify-content: center;
+    margin: 0;
+}
+.start-screen__desc{
+    width: 530px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Large desktops and laptops */
+@media screen and (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media screen and (max-width: 480px) {
+
+}
+
+/* Iphone 5 */
+@media screen and (max-width: 320px) {
+    .start-screen__desc {
+        width: fit-content;
+        color: #fff;
+        font-size: 24px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
