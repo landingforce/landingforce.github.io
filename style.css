@@ -58,8 +58,6 @@ section{
     display: grid;
 }
 .title{
-    grid-column: 1/2;
-    grid-row: 1/5;
     color: #fff;
     font-size: 70px;
     font-weight: bold;
