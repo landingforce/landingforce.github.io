@@ -115,15 +115,29 @@ section{
         font-size: 24px;
         font-family: 'Open Sans', sans-serif;
     }
-    .start-screen {
-        grid-column: 1 / 2;
-        grid-row: 1 / 5;
-     
-     }
-     .picture {
-         grid-row: 1 / 5;
-         grid-column: 2 / 2;
-       display: flex;
-       justify-content:start;
-     }
+.start-screen {
+   grid-column: 1 / 2;
+   grid-row: 5 / 5;
+
+}
+.picture {
+    grid-row: 1 / 5;
+    grid-column: 1 / 2;
+  display: flex;
+  justify-content:start;
+}
+
+.title{
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: auto;
+}
+.start-screen__desc{
+    width: 530px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
 }
