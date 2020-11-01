@@ -108,7 +108,7 @@ section{
 
 /* Iphone 5 */
 @media screen and (max-width: 320px) {
-     section {
+     .section {
         padding-top: 200px;
         display: grid;
         grid-template-rows: 1fr;
