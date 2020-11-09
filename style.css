@@ -46,12 +46,13 @@ ul.menu_list li {
   }
 button{
     background: #ff5f60;
-    width: 120px;
-    height: 45px;
-    border: 0px;
+    font-weight: bold;
     color: #fff;
-    border-radius: 30px; 
-    font-size: 18px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: 0px;
+    padding:16px 32px; 
+    box-shadow: 0px 5px 5px 0px rgba(255,95,96,0.3);
 }
 section{
     padding-top: 250px;
@@ -102,6 +103,7 @@ section{
      .picture {
         display: flex;
         justify-content: center;
+        margin-right: 40px;
     }
     .wrapper {
         display: flex;
@@ -109,9 +111,24 @@ section{
         overflow: hidden;
         flex-direction: column;
     }
+    .title{
+        text-align: center;
+    }
+    .start-screen__desc {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+text-align: center; 
+width: auto ;   
+}
+.start-screen button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
 }
 
-/* Landscape phones and portrait tablets */
+* Landscape phones and portrait tablets */
 @media screen and (min-width: 767px) {
 
 
